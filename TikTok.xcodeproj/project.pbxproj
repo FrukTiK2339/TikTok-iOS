@@ -22,7 +22,6 @@
 		EFE260A2291BD2AD00FB6612 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260A1291BD2AD00FB6612 /* SettingsViewController.swift */; };
 		EFE260A4291BD31300FB6612 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260A3291BD31300FB6612 /* TabBarViewController.swift */; };
 		EFE260A8291BD3AC00FB6612 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260A7291BD3AC00FB6612 /* PostViewController.swift */; };
-		EFE260AA291BD3CF00FB6612 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260A9291BD3CF00FB6612 /* APICaller.swift */; };
 		EFE260AC291BD3DC00FB6612 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260AB291BD3DC00FB6612 /* StorageManager.swift */; };
 		EFE260AE291BD3EE00FB6612 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260AD291BD3EE00FB6612 /* DatabaseManager.swift */; };
 		EFE260B0291BD40500FB6612 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260AF291BD40500FB6612 /* AuthenticationManager.swift */; };
@@ -52,7 +51,6 @@
 		EFE260A1291BD2AD00FB6612 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		EFE260A3291BD31300FB6612 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = TikTok/Controllers/Core/TabBarViewController.swift; sourceTree = SOURCE_ROOT; };
 		EFE260A7291BD3AC00FB6612 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		EFE260A9291BD3CF00FB6612 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		EFE260AB291BD3DC00FB6612 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		EFE260AD291BD3EE00FB6612 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		EFE260AF291BD40500FB6612 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 		EFE26090291BD1A700FB6612 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				EFE260A9291BD3CF00FB6612 /* APICaller.swift */,
 				EFE260AB291BD3DC00FB6612 /* StorageManager.swift */,
 				EFE260AD291BD3EE00FB6612 /* DatabaseManager.swift */,
 				EFE260AF291BD40500FB6612 /* AuthenticationManager.swift */,
@@ -356,7 +353,6 @@
 				EFE26094291BD23C00FB6612 /* ExploreViewController.swift in Sources */,
 				EFE2609C291BD28700FB6612 /* UserListViewController.swift in Sources */,
 				EFE260A2291BD2AD00FB6612 /* SettingsViewController.swift in Sources */,
-				EFE260AA291BD3CF00FB6612 /* APICaller.swift in Sources */,
 				EFE260A8291BD3AC00FB6612 /* PostViewController.swift in Sources */,
 				EFE26096291BD25000FB6612 /* CameraViewController.swift in Sources */,
 				EFE260A4291BD31300FB6612 /* TabBarViewController.swift in Sources */,

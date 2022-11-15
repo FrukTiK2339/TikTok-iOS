@@ -5,10 +5,12 @@ target 'TikTok' do
 
   # Pods for TikTok
 
-  pod 'FirebaseAnalytics'
-  pod 'FirebaseAuth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Analytics'
   pod 'Firebase/Crashlytics'
-  pod 'FirebaseFirestore'
 
   pod 'Appirater'
   pod 'SDWebImage'
