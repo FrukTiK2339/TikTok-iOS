@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF9A63242923DCD5002A83E7 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A63232923DCD5002A83E7 /* PostModel.swift */; };
+		EFAF9DB6292CBBD300AED988 /* ExploreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF9DB5292CBBD300AED988 /* ExploreModel.swift */; };
+		EFB6F55029237D3400CE2CD9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6F54F29237D3400CE2CD9 /* Extensions.swift */; };
 		EFE26078291BACC100FB6612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26077291BACC100FB6612 /* AppDelegate.swift */; };
 		EFE2607A291BACC100FB6612 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26079291BACC100FB6612 /* SceneDelegate.swift */; };
 		EFE2607C291BACC100FB6612 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2607B291BACC100FB6612 /* HomeViewController.swift */; };
@@ -26,6 +29,11 @@
 		EFE260AE291BD3EE00FB6612 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260AD291BD3EE00FB6612 /* DatabaseManager.swift */; };
 		EFE260B0291BD40500FB6612 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260AF291BD40500FB6612 /* AuthenticationManager.swift */; };
 		EFE260B2291BD42000FB6612 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260B1291BD42000FB6612 /* HapticsManager.swift */; };
+		EFEB4847292651F900BEB8F6 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB4846292651F900BEB8F6 /* CommentsViewController.swift */; };
+		EFF1B83B292B64B900B36C9B /* PostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1B83A292B64B900B36C9B /* PostComment.swift */; };
+		EFF1B83D292B64E300B36C9B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1B83C292B64E300B36C9B /* User.swift */; };
+		EFF1B83F292B6D2100B36C9B /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1B83E292B6D2100B36C9B /* CommentTableViewCell.swift */; };
+		EFF1B841292BBDD600B36C9B /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EFF1B840292BBB3D00B36C9B /* video.mp4 */; };
 		EFF54C7C291E39E200C129DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFF54C7B291E39E200C129DD /* GoogleService-Info.plist */; };
 		FF9058F1CD6F466D26AABC45 /* Pods_TikTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D32C4ABE491C9C92A728C2 /* Pods_TikTok.framework */; };
 /* End PBXBuildFile section */
@@ -34,6 +42,9 @@
 		67D32C4ABE491C9C92A728C2 /* Pods_TikTok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikTok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DFAE439FBDAD034F170AD0 /* Pods-TikTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTok.debug.xcconfig"; path = "Target Support Files/Pods-TikTok/Pods-TikTok.debug.xcconfig"; sourceTree = "<group>"; };
 		8F4EE69203546048ABA29BE8 /* Pods-TikTok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTok.release.xcconfig"; path = "Target Support Files/Pods-TikTok/Pods-TikTok.release.xcconfig"; sourceTree = "<group>"; };
+		EF9A63232923DCD5002A83E7 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		EFAF9DB5292CBBD300AED988 /* ExploreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreModel.swift; sourceTree = "<group>"; };
+		EFB6F54F29237D3400CE2CD9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EFE26074291BACC100FB6612 /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE26077291BACC100FB6612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFE26079291BACC100FB6612 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +66,11 @@
 		EFE260AD291BD3EE00FB6612 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		EFE260AF291BD40500FB6612 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		EFE260B1291BD42000FB6612 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		EFEB4846292651F900BEB8F6 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		EFF1B83A292B64B900B36C9B /* PostComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComment.swift; sourceTree = "<group>"; };
+		EFF1B83C292B64E300B36C9B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EFF1B83E292B6D2100B36C9B /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		EFF1B840292BBB3D00B36C9B /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		EFF54C7B291E39E200C129DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,8 +140,10 @@
 			isa = PBXGroup;
 			children = (
 				EFE26080291BACC200FB6612 /* Assets.xcassets */,
+				EFF1B840292BBB3D00B36C9B /* video.mp4 */,
 				EFE26077291BACC100FB6612 /* AppDelegate.swift */,
 				EFE26079291BACC100FB6612 /* SceneDelegate.swift */,
+				EFB6F54F29237D3400CE2CD9 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -151,6 +169,10 @@
 		EFE2608E291BD16100FB6612 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EF9A63232923DCD5002A83E7 /* PostModel.swift */,
+				EFF1B83A292B64B900B36C9B /* PostComment.swift */,
+				EFF1B83C292B64E300B36C9B /* User.swift */,
+				EFAF9DB5292CBBD300AED988 /* ExploreModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +216,7 @@
 				EFE2609F291BD2A200FB6612 /* SignUpViewController.swift */,
 				EFE260A1291BD2AD00FB6612 /* SettingsViewController.swift */,
 				EFE260A7291BD3AC00FB6612 /* PostViewController.swift */,
+				EFEB4846292651F900BEB8F6 /* CommentsViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -209,6 +232,7 @@
 		EFE260A6291BD32F00FB6612 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				EFF1B83E292B6D2100B36C9B /* CommentTableViewCell.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -274,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF1B841292BBDD600B36C9B /* video.mp4 in Resources */,
 				EFE26084291BACC200FB6612 /* LaunchScreen.storyboard in Resources */,
 				EFE26081291BACC200FB6612 /* Assets.xcassets in Resources */,
 				EFF54C7C291E39E200C129DD /* GoogleService-Info.plist in Resources */,
@@ -348,7 +373,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEB4847292651F900BEB8F6 /* CommentsViewController.swift in Sources */,
 				EFE260B2291BD42000FB6612 /* HapticsManager.swift in Sources */,
+				EFB6F55029237D3400CE2CD9 /* Extensions.swift in Sources */,
+				EFAF9DB6292CBBD300AED988 /* ExploreModel.swift in Sources */,
+				EFF1B83F292B6D2100B36C9B /* CommentTableViewCell.swift in Sources */,
 				EFE260AE291BD3EE00FB6612 /* DatabaseManager.swift in Sources */,
 				EFE26094291BD23C00FB6612 /* ExploreViewController.swift in Sources */,
 				EFE2609C291BD28700FB6612 /* UserListViewController.swift in Sources */,
@@ -356,11 +385,14 @@
 				EFE260A8291BD3AC00FB6612 /* PostViewController.swift in Sources */,
 				EFE26096291BD25000FB6612 /* CameraViewController.swift in Sources */,
 				EFE260A4291BD31300FB6612 /* TabBarViewController.swift in Sources */,
+				EFF1B83D292B64E300B36C9B /* User.swift in Sources */,
 				EFE2607C291BACC100FB6612 /* HomeViewController.swift in Sources */,
 				EFE260A0291BD2A200FB6612 /* SignUpViewController.swift in Sources */,
 				EFE260B0291BD40500FB6612 /* AuthenticationManager.swift in Sources */,
 				EFE26098291BD26600FB6612 /* NotificationsViewController.swift in Sources */,
+				EFF1B83B292B64B900B36C9B /* PostComment.swift in Sources */,
 				EFE2609E291BD29500FB6612 /* SignInViewController.swift in Sources */,
+				EF9A63242923DCD5002A83E7 /* PostModel.swift in Sources */,
 				EFE2609A291BD27800FB6612 /* ProfileViewController.swift in Sources */,
 				EFE260AC291BD3DC00FB6612 /* StorageManager.swift in Sources */,
 				EFE26078291BACC100FB6612 /* AppDelegate.swift in Sources */,
@@ -507,7 +539,7 @@
 				DEVELOPMENT_TEAM = T6G9TGF6UU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TikTok/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TikTok;
+				INFOPLIST_KEY_CFBundleDisplayName = "TikTok kek";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -540,7 +572,7 @@
 				DEVELOPMENT_TEAM = T6G9TGF6UU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TikTok/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TikTok;
+				INFOPLIST_KEY_CFBundleDisplayName = "TikTok kek";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
