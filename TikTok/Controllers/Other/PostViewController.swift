@@ -99,7 +99,7 @@ class PostViewController: UIViewController {
         super.viewDidLayoutSubviews()
         
         let size: CGFloat = 40
-        let yStart: CGFloat = view.height - (size * 4) - view.safeAreaInsets.bottom - (tabBarController?.tabBar.height ?? 0) - 30
+        let yStart: CGFloat = view.height - (size * 4) - view.safeAreaInsets.bottom - 30
         for (index, button) in [likeButton, commentButton, shareButton].enumerated() {
             button.frame = CGRect(x: view.width-size-10, y: yStart + (CGFloat(index) * 10) + (CGFloat(index) * size), width: size, height: size * 10/11)
         }
@@ -108,7 +108,7 @@ class PostViewController: UIViewController {
         let labelSize = captionLabel.sizeThatFits(CGSize(width: view.width - size - 12, height: view.height))
         captionLabel.frame = CGRect(
             x: 5,
-            y: view.height - 10 - view.safeAreaInsets.bottom - labelSize.height - (tabBarController?.tabBar.height ?? 0),
+            y: view.height - 10 - view.safeAreaInsets.bottom - labelSize.height,
             width: view.width - size - 12,
             height: labelSize.height
         )
@@ -133,7 +133,10 @@ class PostViewController: UIViewController {
     }
     
     private func configureVideo() {
-        guard let path = Bundle.main.path(forResource: "vidsseo", ofType: "mp4") else {
+//        let videoTestString = "video"
+        #warning("MOCK video file")
+        let videoTestString = "mock"
+        guard let path = Bundle.main.path(forResource: videoTestString, ofType: "mp4") else {
             return
         }
         let url = URL(fileURLWithPath: path)

@@ -32,7 +32,7 @@ class CommentsViewController: UIViewController {
     private let closeButton: UIButton = {
         let button = UIButton()
         button.setBackgroundImage(UIImage(systemName: "xmark"), for: .normal)
-        button.tintColor = .black
+        button.tintColor = .white
         return button
     }()
     
@@ -49,7 +49,7 @@ class CommentsViewController: UIViewController {
         super.viewDidLoad()
         view.addSubview(closeButton)
         closeButton.addTarget(self, action: #selector(didTapClose), for: .touchUpInside)
-        view.backgroundColor = .white
+        view.backgroundColor = .secondarySystemBackground
         fetchPostComments()
         view.addSubview(tableView)
         tableView.dataSource = self

@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF60D43A292CF98800109B66 /* explore.json in Resources */ = {isa = PBXBuildFile; fileRef = EF60D439292CF98800109B66 /* explore.json */; };
+		EF60D43C292CF9D100109B66 /* ExploreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60D43B292CF9D100109B66 /* ExploreManager.swift */; };
+		EF60D43E292D073E00109B66 /* ExploreBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60D43D292D073E00109B66 /* ExploreBannerCollectionViewCell.swift */; };
+		EF60D440292D075100109B66 /* ExplorePostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60D43F292D075100109B66 /* ExplorePostCollectionViewCell.swift */; };
+		EF60D442292D075D00109B66 /* ExploreUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60D441292D075D00109B66 /* ExploreUserCollectionViewCell.swift */; };
+		EF60D444292D076B00109B66 /* ExploreHashtagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60D443292D076B00109B66 /* ExploreHashtagCollectionViewCell.swift */; };
 		EF9A63242923DCD5002A83E7 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A63232923DCD5002A83E7 /* PostModel.swift */; };
 		EFAF9DB6292CBBD300AED988 /* ExploreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF9DB5292CBBD300AED988 /* ExploreModel.swift */; };
 		EFB6F55029237D3400CE2CD9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6F54F29237D3400CE2CD9 /* Extensions.swift */; };
+		EFBB8F372930AB44000FAF57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFBB8F362930AB44000FAF57 /* GoogleService-Info.plist */; };
+		EFD1512A292E6FCA0008859F /* AuthField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD15129292E6FCA0008859F /* AuthField.swift */; };
+		EFD1512C292E6FDA0008859F /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD1512B292E6FDA0008859F /* AuthButton.swift */; };
 		EFE26078291BACC100FB6612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26077291BACC100FB6612 /* AppDelegate.swift */; };
 		EFE2607A291BACC100FB6612 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26079291BACC100FB6612 /* SceneDelegate.swift */; };
 		EFE2607C291BACC100FB6612 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2607B291BACC100FB6612 /* HomeViewController.swift */; };
@@ -29,12 +38,13 @@
 		EFE260AE291BD3EE00FB6612 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260AD291BD3EE00FB6612 /* DatabaseManager.swift */; };
 		EFE260B0291BD40500FB6612 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260AF291BD40500FB6612 /* AuthenticationManager.swift */; };
 		EFE260B2291BD42000FB6612 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE260B1291BD42000FB6612 /* HapticsManager.swift */; };
+		EFE5BF842935FEE400E4127F /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE5BF832935FEE400E4127F /* RecordButton.swift */; };
+		EFE5BF86293609F300E4127F /* CaptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE5BF85293609F300E4127F /* CaptionViewController.swift */; };
 		EFEB4847292651F900BEB8F6 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB4846292651F900BEB8F6 /* CommentsViewController.swift */; };
 		EFF1B83B292B64B900B36C9B /* PostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1B83A292B64B900B36C9B /* PostComment.swift */; };
 		EFF1B83D292B64E300B36C9B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1B83C292B64E300B36C9B /* User.swift */; };
 		EFF1B83F292B6D2100B36C9B /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1B83E292B6D2100B36C9B /* CommentTableViewCell.swift */; };
 		EFF1B841292BBDD600B36C9B /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EFF1B840292BBB3D00B36C9B /* video.mp4 */; };
-		EFF54C7C291E39E200C129DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFF54C7B291E39E200C129DD /* GoogleService-Info.plist */; };
 		FF9058F1CD6F466D26AABC45 /* Pods_TikTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D32C4ABE491C9C92A728C2 /* Pods_TikTok.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,9 +52,18 @@
 		67D32C4ABE491C9C92A728C2 /* Pods_TikTok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikTok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DFAE439FBDAD034F170AD0 /* Pods-TikTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTok.debug.xcconfig"; path = "Target Support Files/Pods-TikTok/Pods-TikTok.debug.xcconfig"; sourceTree = "<group>"; };
 		8F4EE69203546048ABA29BE8 /* Pods-TikTok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTok.release.xcconfig"; path = "Target Support Files/Pods-TikTok/Pods-TikTok.release.xcconfig"; sourceTree = "<group>"; };
+		EF60D439292CF98800109B66 /* explore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explore.json; sourceTree = "<group>"; };
+		EF60D43B292CF9D100109B66 /* ExploreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreManager.swift; sourceTree = "<group>"; };
+		EF60D43D292D073E00109B66 /* ExploreBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreBannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF60D43F292D075100109B66 /* ExplorePostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePostCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF60D441292D075D00109B66 /* ExploreUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF60D443292D076B00109B66 /* ExploreHashtagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHashtagCollectionViewCell.swift; sourceTree = "<group>"; };
 		EF9A63232923DCD5002A83E7 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		EFAF9DB5292CBBD300AED988 /* ExploreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreModel.swift; sourceTree = "<group>"; };
 		EFB6F54F29237D3400CE2CD9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EFBB8F362930AB44000FAF57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EFD15129292E6FCA0008859F /* AuthField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthField.swift; sourceTree = "<group>"; };
+		EFD1512B292E6FDA0008859F /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		EFE26074291BACC100FB6612 /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE26077291BACC100FB6612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFE26079291BACC100FB6612 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,12 +85,13 @@
 		EFE260AD291BD3EE00FB6612 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		EFE260AF291BD40500FB6612 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		EFE260B1291BD42000FB6612 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		EFE5BF832935FEE400E4127F /* RecordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		EFE5BF85293609F300E4127F /* CaptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionViewController.swift; sourceTree = "<group>"; };
 		EFEB4846292651F900BEB8F6 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		EFF1B83A292B64B900B36C9B /* PostComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComment.swift; sourceTree = "<group>"; };
 		EFF1B83C292B64E300B36C9B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EFF1B83E292B6D2100B36C9B /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		EFF1B840292BBB3D00B36C9B /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
-		EFF54C7B291E39E200C129DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EFBB8F352930A251000FAF57 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EFE2609D291BD29500FB6612 /* SignInViewController.swift */,
+				EFE2609F291BD2A200FB6612 /* SignUpViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		EFE2606B291BACC100FB6612 = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +160,7 @@
 				EFE2608C291BD14F00FB6612 /* Controllers */,
 				EFE2608B291BD13A00FB6612 /* Resources */,
 				EFE26085291BACC200FB6612 /* Info.plist */,
-				EFF54C7B291E39E200C129DD /* GoogleService-Info.plist */,
+				EFBB8F362930AB44000FAF57 /* GoogleService-Info.plist */,
 			);
 			path = TikTok;
 			sourceTree = "<group>";
@@ -139,6 +168,7 @@
 		EFE2608B291BD13A00FB6612 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF60D439292CF98800109B66 /* explore.json */,
 				EFE26080291BACC200FB6612 /* Assets.xcassets */,
 				EFF1B840292BBB3D00B36C9B /* video.mp4 */,
 				EFE26077291BACC100FB6612 /* AppDelegate.swift */,
@@ -191,6 +221,7 @@
 				EFE260AD291BD3EE00FB6612 /* DatabaseManager.swift */,
 				EFE260AF291BD40500FB6612 /* AuthenticationManager.swift */,
 				EFE260B1291BD42000FB6612 /* HapticsManager.swift */,
+				EF60D43B292CF9D100109B66 /* ExploreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -211,12 +242,12 @@
 		EFE26092291BD21A00FB6612 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				EFBB8F352930A251000FAF57 /* Authentication */,
 				EFE2609B291BD28700FB6612 /* UserListViewController.swift */,
-				EFE2609D291BD29500FB6612 /* SignInViewController.swift */,
-				EFE2609F291BD2A200FB6612 /* SignUpViewController.swift */,
 				EFE260A1291BD2AD00FB6612 /* SettingsViewController.swift */,
 				EFE260A7291BD3AC00FB6612 /* PostViewController.swift */,
 				EFEB4846292651F900BEB8F6 /* CommentsViewController.swift */,
+				EFE5BF85293609F300E4127F /* CaptionViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -233,6 +264,13 @@
 			isa = PBXGroup;
 			children = (
 				EFF1B83E292B6D2100B36C9B /* CommentTableViewCell.swift */,
+				EF60D43D292D073E00109B66 /* ExploreBannerCollectionViewCell.swift */,
+				EF60D43F292D075100109B66 /* ExplorePostCollectionViewCell.swift */,
+				EF60D441292D075D00109B66 /* ExploreUserCollectionViewCell.swift */,
+				EF60D443292D076B00109B66 /* ExploreHashtagCollectionViewCell.swift */,
+				EFD15129292E6FCA0008859F /* AuthField.swift */,
+				EFD1512B292E6FDA0008859F /* AuthButton.swift */,
+				EFE5BF832935FEE400E4127F /* RecordButton.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -298,10 +336,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF60D43A292CF98800109B66 /* explore.json in Resources */,
 				EFF1B841292BBDD600B36C9B /* video.mp4 in Resources */,
+				EFBB8F372930AB44000FAF57 /* GoogleService-Info.plist in Resources */,
 				EFE26084291BACC200FB6612 /* LaunchScreen.storyboard in Resources */,
 				EFE26081291BACC200FB6612 /* Assets.xcassets in Resources */,
-				EFF54C7C291E39E200C129DD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,15 +420,24 @@
 				EFE260AE291BD3EE00FB6612 /* DatabaseManager.swift in Sources */,
 				EFE26094291BD23C00FB6612 /* ExploreViewController.swift in Sources */,
 				EFE2609C291BD28700FB6612 /* UserListViewController.swift in Sources */,
+				EFE5BF842935FEE400E4127F /* RecordButton.swift in Sources */,
+				EF60D440292D075100109B66 /* ExplorePostCollectionViewCell.swift in Sources */,
 				EFE260A2291BD2AD00FB6612 /* SettingsViewController.swift in Sources */,
 				EFE260A8291BD3AC00FB6612 /* PostViewController.swift in Sources */,
+				EF60D442292D075D00109B66 /* ExploreUserCollectionViewCell.swift in Sources */,
+				EFD1512A292E6FCA0008859F /* AuthField.swift in Sources */,
 				EFE26096291BD25000FB6612 /* CameraViewController.swift in Sources */,
 				EFE260A4291BD31300FB6612 /* TabBarViewController.swift in Sources */,
+				EF60D444292D076B00109B66 /* ExploreHashtagCollectionViewCell.swift in Sources */,
+				EF60D43E292D073E00109B66 /* ExploreBannerCollectionViewCell.swift in Sources */,
 				EFF1B83D292B64E300B36C9B /* User.swift in Sources */,
 				EFE2607C291BACC100FB6612 /* HomeViewController.swift in Sources */,
 				EFE260A0291BD2A200FB6612 /* SignUpViewController.swift in Sources */,
 				EFE260B0291BD40500FB6612 /* AuthenticationManager.swift in Sources */,
+				EFE5BF86293609F300E4127F /* CaptionViewController.swift in Sources */,
 				EFE26098291BD26600FB6612 /* NotificationsViewController.swift in Sources */,
+				EF60D43C292CF9D100109B66 /* ExploreManager.swift in Sources */,
+				EFD1512C292E6FDA0008859F /* AuthButton.swift in Sources */,
 				EFF1B83B292B64B900B36C9B /* PostComment.swift in Sources */,
 				EFE2609E291BD29500FB6612 /* SignInViewController.swift in Sources */,
 				EF9A63242923DCD5002A83E7 /* PostModel.swift in Sources */,
@@ -542,6 +590,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "TikTok kek";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -575,6 +624,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "TikTok kek";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
