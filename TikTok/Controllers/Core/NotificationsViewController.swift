@@ -91,7 +91,21 @@ class NotificationsViewController: UIViewController, UITableViewDelegate, UITabl
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let model = notifications[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        
+        switch model.type {
+            
+        case .postLike(let postName):
+            break
+        case .userFollow(let userName):
+            break
+        case .postComment(let postName):
+            break
+        }
+        
+        let cell = tableView.dequeueReusableCell(
+            withIdentifier: "cell",
+            for: indexPath
+        )
         cell.textLabel?.text = model.text
         return cell
     }
