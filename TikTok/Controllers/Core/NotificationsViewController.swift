@@ -21,7 +21,22 @@ class NotificationsViewController: UIViewController, UITableViewDelegate, UITabl
     
     private let tableView: UITableView = {
         let tableView = UITableView()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(
+            UITableViewCell.self,
+            forCellReuseIdentifier: "cell"
+        )
+        tableView.register(
+            NotificationsPostCommentTableViewCell.self,
+            forCellReuseIdentifier: NotificationsPostCommentTableViewCell.identifier
+        )
+        tableView.register(
+            NotificationsUserFollowTableViewCell.self,
+            forCellReuseIdentifier: NotificationsUserFollowTableViewCell.identifier
+        )
+        tableView.register(
+            NotificationsPostLikeTableViewCell.self,
+            forCellReuseIdentifier: NotificationsPostLikeTableViewCell.identifier
+        )
         return tableView
     }()
     
@@ -95,19 +110,28 @@ class NotificationsViewController: UIViewController, UITableViewDelegate, UITabl
         switch model.type {
             
         case .postLike(let postName):
-            break
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: NotificationsPostLikeTableViewCell.identifier, for: indexPath) as? NotificationsPostLikeTableViewCell else {
+                return tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+            }
+            cell.configure(with: postName, model: model)
+            return cell
         case .userFollow(let userName):
-            break
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: NotificationsUserFollowTableViewCell.identifier, for: indexPath) as? NotificationsUserFollowTableViewCell else {
+                return tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+            }
+            cell.configure(with: userName, model: model)
+            return cell
         case .postComment(let postName):
-            break
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: NotificationsPostCommentTableViewCell.identifier, for: indexPath) as? NotificationsPostCommentTableViewCell else {
+                return tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+            }
+            cell.configure(with: postName, model: model)
+            return cell
         }
-        
-        let cell = tableView.dequeueReusableCell(
-            withIdentifier: "cell",
-            for: indexPath
-        )
-        cell.textLabel?.text = model.text
-        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
     }
     
 }

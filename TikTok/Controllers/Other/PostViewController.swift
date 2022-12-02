@@ -133,9 +133,9 @@ class PostViewController: UIViewController {
     }
     
     private func configureVideo() {
-//        let videoTestString = "video"
+        let videoTestString = "video2"
         #warning("MOCK video file")
-        let videoTestString = "mock"
+//        let videoTestString = "mock"
         guard let path = Bundle.main.path(forResource: videoTestString, ofType: "mp4") else {
             return
         }

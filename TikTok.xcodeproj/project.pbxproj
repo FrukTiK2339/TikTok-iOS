@@ -15,12 +15,15 @@
 		EF60D444292D076B00109B66 /* ExploreHashtagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60D443292D076B00109B66 /* ExploreHashtagCollectionViewCell.swift */; };
 		EF7CAD1B2938D4B0009A797F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7CAD1A2938D4B0009A797F /* Notifications.swift */; };
 		EF7CAD1D2938D9BE009A797F /* NotificationsUserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7CAD1C2938D9BE009A797F /* NotificationsUserFollowTableViewCell.swift */; };
+		EF7CAD242938F81F009A797F /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EF7CAD232938F81F009A797F /* video2.mp4 */; };
 		EF9A63242923DCD5002A83E7 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A63232923DCD5002A83E7 /* PostModel.swift */; };
 		EFAF9DB6292CBBD300AED988 /* ExploreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF9DB5292CBBD300AED988 /* ExploreModel.swift */; };
 		EFB6F55029237D3400CE2CD9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6F54F29237D3400CE2CD9 /* Extensions.swift */; };
 		EFBB8F372930AB44000FAF57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFBB8F362930AB44000FAF57 /* GoogleService-Info.plist */; };
 		EFD1512A292E6FCA0008859F /* AuthField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD15129292E6FCA0008859F /* AuthField.swift */; };
 		EFD1512C292E6FDA0008859F /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD1512B292E6FDA0008859F /* AuthButton.swift */; };
+		EFD1D3C2293A135E00797575 /* NotificationsPostLikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD1D3C1293A135E00797575 /* NotificationsPostLikeTableViewCell.swift */; };
+		EFD1D3C4293A137A00797575 /* NotificationsPostCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD1D3C3293A137A00797575 /* NotificationsPostCommentTableViewCell.swift */; };
 		EFE26078291BACC100FB6612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26077291BACC100FB6612 /* AppDelegate.swift */; };
 		EFE2607A291BACC100FB6612 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26079291BACC100FB6612 /* SceneDelegate.swift */; };
 		EFE2607C291BACC100FB6612 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2607B291BACC100FB6612 /* HomeViewController.swift */; };
@@ -62,12 +65,15 @@
 		EF60D443292D076B00109B66 /* ExploreHashtagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHashtagCollectionViewCell.swift; sourceTree = "<group>"; };
 		EF7CAD1A2938D4B0009A797F /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		EF7CAD1C2938D9BE009A797F /* NotificationsUserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsUserFollowTableViewCell.swift; sourceTree = "<group>"; };
+		EF7CAD232938F81F009A797F /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 		EF9A63232923DCD5002A83E7 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		EFAF9DB5292CBBD300AED988 /* ExploreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreModel.swift; sourceTree = "<group>"; };
 		EFB6F54F29237D3400CE2CD9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EFBB8F362930AB44000FAF57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EFD15129292E6FCA0008859F /* AuthField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthField.swift; sourceTree = "<group>"; };
 		EFD1512B292E6FDA0008859F /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		EFD1D3C1293A135E00797575 /* NotificationsPostLikeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsPostLikeTableViewCell.swift; sourceTree = "<group>"; };
+		EFD1D3C3293A137A00797575 /* NotificationsPostCommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsPostCommentTableViewCell.swift; sourceTree = "<group>"; };
 		EFE26074291BACC100FB6612 /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE26077291BACC100FB6612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFE26079291BACC100FB6612 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +162,16 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		EFD1D3C5293A138C00797575 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				EF7CAD1C2938D9BE009A797F /* NotificationsUserFollowTableViewCell.swift */,
+				EFD1D3C1293A135E00797575 /* NotificationsPostLikeTableViewCell.swift */,
+				EFD1D3C3293A137A00797575 /* NotificationsPostCommentTableViewCell.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		EFE2606B291BACC100FB6612 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +210,7 @@
 			children = (
 				EF60D439292CF98800109B66 /* explore.json */,
 				EFE26080291BACC200FB6612 /* Assets.xcassets */,
+				EF7CAD232938F81F009A797F /* video2.mp4 */,
 				EFF1B840292BBB3D00B36C9B /* video.mp4 */,
 				EFE26077291BACC100FB6612 /* AppDelegate.swift */,
 				EFE26079291BACC100FB6612 /* SceneDelegate.swift */,
@@ -288,7 +305,7 @@
 		EFE260A6291BD32F00FB6612 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				EF7CAD1C2938D9BE009A797F /* NotificationsUserFollowTableViewCell.swift */,
+				EFD1D3C5293A138C00797575 /* Notifications */,
 				EFE5BF832935FEE400E4127F /* RecordButton.swift */,
 				EFF1B83E292B6D2100B36C9B /* CommentTableViewCell.swift */,
 				EF7CAD1F2938E9E0009A797F /* Explore */,
@@ -360,6 +377,7 @@
 			files = (
 				EF60D43A292CF98800109B66 /* explore.json in Resources */,
 				EFF1B841292BBDD600B36C9B /* video.mp4 in Resources */,
+				EF7CAD242938F81F009A797F /* video2.mp4 in Resources */,
 				EFBB8F372930AB44000FAF57 /* GoogleService-Info.plist in Resources */,
 				EFE26084291BACC200FB6612 /* LaunchScreen.storyboard in Resources */,
 				EFE26081291BACC200FB6612 /* Assets.xcassets in Resources */,
@@ -445,6 +463,7 @@
 				EFE2609C291BD28700FB6612 /* UserListViewController.swift in Sources */,
 				EFE5BF842935FEE400E4127F /* RecordButton.swift in Sources */,
 				EF60D440292D075100109B66 /* ExplorePostCollectionViewCell.swift in Sources */,
+				EFD1D3C4293A137A00797575 /* NotificationsPostCommentTableViewCell.swift in Sources */,
 				EFE260A2291BD2AD00FB6612 /* SettingsViewController.swift in Sources */,
 				EFE260A8291BD3AC00FB6612 /* PostViewController.swift in Sources */,
 				EF60D442292D075D00109B66 /* ExploreUserCollectionViewCell.swift in Sources */,
@@ -465,6 +484,7 @@
 				EFE2609E291BD29500FB6612 /* SignInViewController.swift in Sources */,
 				EF9A63242923DCD5002A83E7 /* PostModel.swift in Sources */,
 				EFE2609A291BD27800FB6612 /* ProfileViewController.swift in Sources */,
+				EFD1D3C2293A135E00797575 /* NotificationsPostLikeTableViewCell.swift in Sources */,
 				EF7CAD1B2938D4B0009A797F /* Notifications.swift in Sources */,
 				EFE260AC291BD3DC00FB6612 /* StorageManager.swift in Sources */,
 				EFE26078291BACC100FB6612 /* AppDelegate.swift in Sources */,

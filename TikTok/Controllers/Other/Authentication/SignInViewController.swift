@@ -39,10 +39,10 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         configureButtons()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        emailField.becomeFirstResponder()
-    }
+//    override func viewDidAppear(_ animated: Bool) {
+//        super.viewDidAppear(animated)
+//        emailField.becomeFirstResponder()
+//    }
     
     func configureFields() {
         emailField.delegate = self
@@ -51,7 +51,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         let toolBar = UIToolbar(frame: CGRect(x: 0, y: 0, width: view.width, height: 50))
         toolBar.items = [
             UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil),
-            UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(didTapKeyboardDone))
+//            UIBarButtonItem(title: "x", style: .done, target: self, action: #selector(didTapKeyboardDone))
         ]
         toolBar.sizeToFit()
         emailField.inputAccessoryView = toolBar
